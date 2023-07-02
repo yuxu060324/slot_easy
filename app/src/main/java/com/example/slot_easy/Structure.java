@@ -20,7 +20,7 @@ public class Structure {
             stateFlag[0] = false;
             stateFlag[1] = false;
             stateFlag[2] = false;
-            SlotReelFilePath = "reel_normal_file.txt";
+            SlotReelFilePath = "";
         }
 
     }
