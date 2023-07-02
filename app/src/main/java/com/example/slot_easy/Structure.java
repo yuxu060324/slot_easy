@@ -17,9 +17,9 @@ public class Structure {
             mode = 0;
             game_num = 0;
             chance_num = 0;
-            stateFlag[0] = false;
-            stateFlag[1] = false;
-            stateFlag[2] = false;
+            stateFlag[0] = true;
+            stateFlag[1] = true;
+            stateFlag[2] = true;
             SlotReelFilePath = "";
         }
 
