@@ -15,24 +15,6 @@ import java.io.InputStreamReader;
 
 public class ScreenListControl {
 
-    public static void ScreenInitialize(Structure.GameInfo gameInfo){
-
-        savefile(gameInfo.SlotReelFilePath, "");
-
-    }
-
-    public static void ChangeReelFile(Structure.GameInfo gameInfo){
-        gameInfo.SlotReelFilePath = "";
-    }
-
-    public void savefile (String file, String str) {
-        try(FileOutputStream fileOutputStream = openFileOutPut(file, Context.MODE_APPEND)){
-            fileOutputStream.write(str.getBytes());
-        }catch(IOException e){
-            e.printStackTrace();
-        }
-    }
-
     public static int[] judge_screenList(int[][] screenList){
 
         int statelist[] = new int[8];
